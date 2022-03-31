@@ -17,4 +17,6 @@
 
 ### The point was training and learning jQuery even further, then the challenge was built with [Angela Yu](https://www.linkedin.com/in/angela-yu-963a584b/?originalSubdomain=uk) orientation. I really enjoyed myself building this, and also I could train my memory a bit 😝.
 
-### You can enjoy yourself as well clicking here!
+### You can enjoy yourself as well clicking [here](https://felipebss1.github.io/simon-game-challenge/)!
+
+##### [Simon Source Info](https://en.wikipedia.org/wiki/Simon_(game))
