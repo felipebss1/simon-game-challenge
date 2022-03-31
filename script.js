@@ -10,7 +10,7 @@ $(document).keypress(function () {
         $("level-title").text("Level " + level);
         nextSequence();
         started = true; 
-        $(".container").css("pointer-events", "auto");   
+        /* $(".container").css("pointer-events", "auto"); */
     }
     
 });
@@ -44,7 +44,7 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over")
         }, 200);
         $("#level-title").text("Game Over, Press Any Key to Restart");
-        $(".container").css("pointer-events", "none"); // It'll lock the mouseclick;
+        /* $(".container").css("pointer-events", "none") */; // It'll lock the mouseclick;
         startOver();
     }
 }
