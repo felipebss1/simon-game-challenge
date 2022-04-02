@@ -14,6 +14,7 @@ body {
   display: block;
   width: 50%;
   margin: auto;
+  pointer-events: none;
 }
 
 .btn {
@@ -51,41 +52,110 @@ body {
   background-color: grey;
 }
 
+#end {
+  display: none;
+}
+
+#start {
+  display: none;
+}
+
 /* Mobile */
+
 @media (min-width: 280px) and (max-width: 767px) {
   #level-title {
     font-size: 1.5rem;
   }
+
   .container {
     width: auto;
   }
+
   .btn {
-    width: 150px;
-    height: 150px;
-    margin: 23px;
+    width: 31%;
+    height: 0;
+    padding-top: 30%;
+    box-sizing: border-box;
+    margin: 16px;
   }
-  .row{
+
+  .row {
     display: flex;
     justify-content: center;
+  }
+
+  #start {
+    background-color: yellow;
+    height: 2rem;
+    padding: 0 0.6rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #end {
+    background-color: yellow;
+    height: 2rem;
+    padding: 0 0.6rem;
+    margin: auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
 
 /* Tablet */
 
-@media (min-width: 768px) and (max-width: 1103px){
+@media (min-width: 768px) and (max-width: 1103px) {
   #level-title {
     font-size: 2em;
   }
+
   .container {
     width: auto;
   }
+
   .btn {
     width: 160px;
     height: 160px;
     margin: 23px;
   }
+
   .row {
     display: flex;
     justify-content: center;
+  }
+
+  #start {
+    background-color: yellow;
+    height: 2rem;
+    padding: 0 0.6rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #end {
+    background-color: yellow;
+    height: 2rem;
+    padding: 0 0.6rem;
+    margin: auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
